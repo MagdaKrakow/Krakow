@@ -1,0 +1,71 @@
+ 1. I used the following Input data files:
+ 
+ features.txt
+ features_info.txt
+ README.txt
+ subject_test.txt
+ X_test.txt
+ Y_test.txt
+ body_acc_x_test.txt
+ body_acc_y_test.txt
+ body_acc_z_test.txt
+ body_gyro_x_test.txt
+ body_gyro_y_test.txt
+ body_gyro_z_test.txt
+ total_acc_x_test.txt
+ total_acc_y_test.txt
+ total_acc_z_test.txt
+ subject_test.txt
+ X_train.txt
+ Y_train.txt
+ body_acc_x_train.txt
+ body_acc_y_train.txt
+ body_acc_z_train.txt
+ body_gyro_x_train.txt
+ body_gyro_y_train.txt
+ body_gyro_z_train.txt
+ total_acc_x_train.txt
+ total_acc_y_train.txt
+ total_acc_z_train.txt
+ 
+ There are 7.352 observation relating to 562 variable register as "Train" (561 variable for x, 1 variable for y), plus
+           2.947 observation relating to 562 variable register as "Test" (561 variable for x, 1 variable for y)
+ 
+ 
+2. I analysed 68 Variable (Data) relating to mean and standard deviation
+ [1] "timeBodyAccelerometer-mean()-X"                 "timeBodyAccelerometer-mean()-Y"                
+ [3] "timeBodyAccelerometer-mean()-Z"                 "timeBodyAccelerometer-std()-X"                 
+ [5] "timeBodyAccelerometer-std()-Y"                  "timeBodyAccelerometer-std()-Z"                 
+ [7] "timeGravityAccelerometer-mean()-X"              "timeGravityAccelerometer-mean()-Y"             
+ [9] "timeGravityAccelerometer-mean()-Z"              "timeGravityAccelerometer-std()-X"              
+[11] "timeGravityAccelerometer-std()-Y"               "timeGravityAccelerometer-std()-Z"              
+[13] "timeBodyAccelerometerJerk-mean()-X"             "timeBodyAccelerometerJerk-mean()-Y"            
+[15] "timeBodyAccelerometerJerk-mean()-Z"             "timeBodyAccelerometerJerk-std()-X"             
+[17] "timeBodyAccelerometerJerk-std()-Y"              "timeBodyAccelerometerJerk-std()-Z"             
+[19] "timeBodyGyroscope-mean()-X"                     "timeBodyGyroscope-mean()-Y"                    
+[21] "timeBodyGyroscope-mean()-Z"                     "timeBodyGyroscope-std()-X"                     
+[23] "timeBodyGyroscope-std()-Y"                      "timeBodyGyroscope-std()-Z"                     
+[25] "timeBodyGyroscopeJerk-mean()-X"                 "timeBodyGyroscopeJerk-mean()-Y"                
+[27] "timeBodyGyroscopeJerk-mean()-Z"                 "timeBodyGyroscopeJerk-std()-X"                 
+[29] "timeBodyGyroscopeJerk-std()-Y"                  "timeBodyGyroscopeJerk-std()-Z"                 
+[31] "timeBodyAccelerometerMagnitude-mean()"          "timeBodyAccelerometerMagnitude-std()"          
+[33] "timeGravityAccelerometerMagnitude-mean()"       "timeGravityAccelerometerMagnitude-std()"       
+[35] "timeBodyAccelerometerJerkMagnitude-mean()"      "timeBodyAccelerometerJerkMagnitude-std()"      
+[37] "timeBodyGyroscopeMagnitude-mean()"              "timeBodyGyroscopeMagnitude-std()"              
+[39] "timeBodyGyroscopeJerkMagnitude-mean()"          "timeBodyGyroscopeJerkMagnitude-std()"          
+[41] "frequencyBodyAccelerometer-mean()-X"            "frequencyBodyAccelerometer-mean()-Y"           
+[43] "frequencyBodyAccelerometer-mean()-Z"            "frequencyBodyAccelerometer-std()-X"            
+[45] "frequencyBodyAccelerometer-std()-Y"             "frequencyBodyAccelerometer-std()-Z"            
+[47] "frequencyBodyAccelerometerJerk-mean()-X"        "frequencyBodyAccelerometerJerk-mean()-Y"       
+[49] "frequencyBodyAccelerometerJerk-mean()-Z"        "frequencyBodyAccelerometerJerk-std()-X"        
+[51] "frequencyBodyAccelerometerJerk-std()-Y"         "frequencyBodyAccelerometerJerk-std()-Z"        
+[53] "frequencyBodyGyroscope-mean()-X"                "frequencyBodyGyroscope-mean()-Y"               
+[55] "frequencyBodyGyroscope-mean()-Z"                "frequencyBodyGyroscope-std()-X"                
+[57] "frequencyBodyGyroscope-std()-Y"                 "frequencyBodyGyroscope-std()-Z"                
+[59] "frequencyBodyAccelerometerMagnitude-mean()"     "frequencyBodyAccelerometerMagnitude-std()"     
+[61] "frequencyBodyAccelerometerJerkMagnitude-mean()" "frequencyBodyAccelerometerJerkMagnitude-std()" 
+[63] "frequencyBodyGyroscopeMagnitude-mean()"         "frequencyBodyGyroscopeMagnitude-std()"         
+[65] "frequencyBodyGyroscopeJerkMagnitude-mean()"     "frequencyBodyGyroscopeJerkMagnitude-std()"     
+[67] "subject"                                        "activity" 
+
+3. The output - the mean of each variable.
